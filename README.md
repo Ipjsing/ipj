@@ -1,2 +1,0 @@
-# ipj
-my first github
