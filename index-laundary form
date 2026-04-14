@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFold Laundry & Cleaning</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="site-header">
+            <div class="brand"><a href="#">FreshFold</a></div>
+            <nav class="site-nav">
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#register">Register</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Clean living made easy</span>
+                <h1>Fresh laundry and spotless cleaning, delivered with care.</h1>
+                <p>FreshFold is your local laundry and cleaning service that handles pickup, wash, dry, folding, house cleaning, and delivery so you can relax.</p>
+                <div class="hero-actions">
+                    <a class="btn-primary" href="#register">Book a service</a>
+                    <a class="btn-secondary" href="#pricing">See plans</a>
+                </div>
+            </div>
+            <aside class="hero-card">
+                <h3>How FreshFold works</h3>
+                <ol>
+                    <li>Schedule pickup or cleaning online.</li>
+                    <li>Our team handles laundry and home care.</li>
+                    <li>Receive fresh, folded clothes and a tidy home.</li>
+                </ol>
+                <div class="hero-metrics">
+                    <div>
+                        <strong>24h</strong>
+                        <span>Fast turnaround</span>
+                    </div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>Satisfaction guarantee</span>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="section-heading">
+                <p>What we offer</p>
+                <h2>Cleaning and laundry services built for busy homes.</h2>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3>Wash & Fold</h3>
+                    <p>Wash, dry, and fold your everyday garments with gentle handling and eco-friendly detergent.</p>
+                </article>
+                <article class="service-card">
+                    <h3>House Cleaning</h3>
+                    <p>Deep cleaning, regular upkeep, and surface sanitization for a fresher home environment.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Pickup & Delivery</h3>
+                    <p>Flexible scheduling for laundry pickup and delivery so your wardrobe stays clean without the effort.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="register" class="registration-section">
+            <div class="section-heading">
+                <p>Join FreshFold</p>
+                <h2>Create an account and book your first service.</h2>
+            </div>
+            <section class="form-card">
+                <header class="card-header">
+                    <h1>Register now</h1>
+                    <p>Sign up for speedy laundry pickup, cleaning appointments, and easy delivery.</p>
+                </header>
+                <form class="card-form" action="#" method="post">
+                    <label for="full-name">Full name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Jane Doe" required>
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890" required>
+
+                    <label for="address">Pickup address</label>
+                    <input type="text" id="address" name="address" placeholder="123 Main Street, City" required>
+
+                    <label for="service-type">Service type</label>
+                    <select id="service-type" name="service-type" required>
+                        <option value="">Choose a service</option>
+                        <option value="wash-fold">Wash & Fold</option>
+                        <option value="dry-cleaning">Dry Cleaning</option>
+                        <option value="house-cleaning">House Cleaning</option>
+                    </select>
+
+                    <label for="notes">Special instructions</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Tell us about stains, delicate items, or cleaning priorities."></textarea>
+
+                    <button type="submit">Create account</button>
+                </form>
+            </section>
+        </section>
+
+        <section id="pricing" class="pricing-shell">
+            <header class="pricing-header">
+                <h2>Choose your plan</h2>
+                <p>Flexible pricing for laundry bags, weekly service, and premium cleaning packages.</p>
+            </header>
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="price">N15,000<span>/bag</span></p>
+                    <ul>
+                        <li>Wash, dry, fold</li>
+                        <li>Pickup & delivery</li>
+                        <li>Eco-friendly soap</li>
+                    </ul>
+                    <button type="button">Choose Starter</button>
+                </article>
+                <article class="pricing-card featured">
+                    <h3>Regular</h3>
+                    <p class="price">N25,000<span>/week</span></p>
+                    <ul>
+                        <li>Weekly laundry service</li>
+                        <li>House cleaning add-on</li>
+                        <li>Priority scheduling</li>
+                    </ul>
+                    <button type="button">Choose Regular</button>
+                </article>
+                <article class="pricing-card">
+                    <h3>Premium</h3>
+                    <p class="price">N70,000<span>/week</span></p>
+                    <ul>
+                        <li>Unlimited items</li>
+                        <li>Dry cleaning included</li>
+                        <li>Deep home cleaning</li>
+                    </ul>
+                    <button type="button">Choose Premium</button>
+                </article>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 FreshFold Laundry & Cleaning. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
